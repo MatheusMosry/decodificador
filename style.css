@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Mulish:wght@200..1000&display=swap');
+
+body{
+    background-color: white;
+}
+main{
+    display: flex;
+}
+.computador{
+    width: 55px;
+    height: 55px;
+    margin: 25px 25px 0 25px;
+    
+}
+.secao-criptografar{
+    display: flex;
+    flex-direction: column;
+}
+.botoes{
+    display: flex;
+}
+#caixa-de-texto{
+    font-family: "Mulish", sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    width: 780px;
+    height: 360px;
+    margin: 33px 34px 0 0;
+    background-color: #8FBAD0;
+    border-radius: 6px;
+}
+.secao-descriptografar >.caixa-resposta{
+   border-radius: 6px;
+    margin-top: 33px;
+    height: 401px;
+    width: 300px;
+    background-color: #8FBAD0;
+}
+div > img{
+   margin: 0 10%;
+}
+h1{
+    color: black;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+#resposta{
+    font-family: "Dosis", sans-serif;
+    font-size: 26px;
+}
+div > p{
+    color: black;
+    font-family: "Mulish", sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+.alerta{
+    color: #012030;
+    font-family: "Mulish", sans-serif;
+}
+.criptografar{
+    margin: 5px 30px 0 0;
+    background-color: #012030;
+    color: #ffffff;
+    width: 398px;
+    height: 63px;
+    border-radius: 10px;
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.criptografar:hover{
+    background-color: #ffffff;
+    color: #012030;
+}
+.descriptografar{
+    margin: 5px 0px 20px 0px;
+    background-color: #012030;
+    color: #ffffff;
+    width: 398px;
+    height: 63px;
+    border-radius: 10px;
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.descriptografar:hover{
+    background-color: #ffffff;
+    color: #012030;
+}
+.copiar{
+    margin: 55px 0px 20px 85px;
+    background-color: #012030;
+    color: #ffffff;
+    width: 198px;
+    height: 63px;
+    border-radius: 10px;
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.copiar:hover{
+    background-color: #ffffff;
+    color: #012030;
+}
+@media(max-width:1260px) {
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+    #caixa-de-texto{
+        margin-left: 10%;
+        width: 40rem;
+    }
+    .secao-descriptografar > .caixa-resposta{
+        width: 40rem;
+    }
+    .secao-descriptografar > .caixa-resposta >.nada-encontrado-imagem{
+        margin-left: 33%;
+        height: 10rem;
+    }
+    .copiar{
+        justify-content: center;
+        margin-left: 34%;
+    }
+
+}
+@media(max-width:870px){
+
+    .criptografar{
+        width: 10rem;
+    }
+    .descriptografar{
+        width: 10rem;
+    }
+    #caixa-de-texto{
+        width: 30rem;
+        margin-left: 2%;
+    }
+    
+    .botoes{
+        justify-content: center;
+    }
+
+    .secao-descriptografar > .caixa-resposta{
+        width: 31rem;
+        margin-left: 0;
+    }
+}
+@media(max-width:600px){
+    #caixa-de-texto{
+        width: 17rem;
+        height: 16rem;
+        margin-left: 5%;
+        font-size: 14px;
+    }
+    .alerta{
+        font-size: 12px;
+    }
+    .criptografar{
+        font-size: 11px;
+        height: 3rem;
+        width: 6rem;
+    }
+    .descriptografar{
+        width: 6rem;
+        height: 3rem;
+        font-size: 11px;
+    }
+    .secao-descriptografar > .caixa-resposta{
+        width: 100%;
+        height: 12rem;
+        padding: 5px;
+    }
+    .copiar{
+        justify-content: center;
+        margin-top: 5%;
+        margin-left: 0;
+        width: 100%;
+        height: 3rem;
+        font-size: 11px;
+    }
+    .secao-descriptografar > .caixa-resposta >.nada-encontrado-imagem{
+        margin-left: 33%;
+        height: 7rem;
+    }
+    h1 {
+        font-size: 14px ;
+    }
+    div > p{
+        font-size: 10px;
+    }
+    #resposta {
+        font-size: 14px;
+    }
+}
+.rodape {
+    color: black;
+    background-color: #5d5e60;
+    padding: 24px;
+    justify-content: center;
+}
